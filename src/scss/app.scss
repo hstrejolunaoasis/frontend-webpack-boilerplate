@@ -42,24 +42,37 @@ header{
             height: 30px;
             padding-top: 5px;
             p{
-                padding-right: 10px;
+                padding-inline-end: 1em;
             }
             a{
-                padding-right: 5vw;
+                padding-inline-end: 5vw;
             }
         }
 
         .nav__links{
             display: flex;
             flex-direction: row;
+            justify-content: center;
             color: white;
             background-color: blue;
+
+            img{
+                height: 61px;
+                width: 50px;
+                margin-inline-end: 48px;
+            }
+            li{
+                font-family: Muli;
+                text-transform: uppercase;
+                font-size: 14px;
+                text-align: center;
+            }
         }
     }
+}
 
-  
+img{
 
-   
 }
 
 .nav__links{
@@ -69,10 +82,14 @@ header{
     justify-content: center;
     ul{
         display: flex;
-        width: 80%;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 85%;
+        row-gap: 19px;
+        background-color: green;
         li{
-            padding-left: 20px;
+            padding-inline-end: 5px;
         }
     }
 }
