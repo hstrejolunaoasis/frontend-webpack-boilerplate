@@ -179,14 +179,54 @@ main{
     align-items: center;
     justify-content: end;
     height: 60vh;
-    background-color: red;
     grid-area: contact;
+
+    form {
+        font-family: Muli;
+        font-size: 14px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        input{
+            height: 20px;
+            border: 0.51px solid rgba(68,68,68,0.2);
+            border-radius: 4px;
+        }
+        .full-width{
+
+            input{
+                width: 30em;
+                border: 0.51px solid rgba(68,68,68,0.2);
+                border-radius: 4px;
+            }
+            textarea{
+                width: 100%;
+                border: 0.51px solid rgba(68,68,68,0.2);
+                border-radius: 4px;
+            }
+        }
+
+        .half-width{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+      }
 
     .contact__form{
         display: flex;
         flex-direction: column;
-        background-color: blue;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
 
+        h2{
+            color: #D3106C;
+            font-size: 30px;
+            font-family: Muli;
+            font-weight: 50;
+        }
+     
     }
    
 }
