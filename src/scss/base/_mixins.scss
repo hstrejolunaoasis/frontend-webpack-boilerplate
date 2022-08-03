@@ -18,6 +18,12 @@
 
 }
 
+@mixin colors($background){
+  flex: 1;
+  height: 5px;
+  background-color: $background;
+}
+
 // Media queries
 @mixin bp($point) {
   @if $point == large {

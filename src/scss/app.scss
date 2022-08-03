@@ -15,6 +15,20 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header header header"
+      "main main main main"
+      "contact contact contact contact"
+      "footer footer footer footer";
+}
+
+
 h1{
     font-family: Muli;
     font-size: 30px;
@@ -235,18 +249,31 @@ main{
             font-family: Muli;
             font-weight: 50;
         }
-     
     }
-   
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "header header header header"
-      "main main main main"
-      "contact contact contact contact"
-      "footer footer footer footer";
+
+.footer__colors{
+    display: flex;
+    width: 100vw;
+    .yellow{
+        @include colors(#FDB918);
+    }
+    .blue{
+        @include colors(#42C5C5);
+    }
+    .purple{
+        @include colors(#555289);
+    }
+    .pink{
+        @include colors(#E8298C);
+    }
+    .red{
+        @include colors(#E51C24);
+    }
+    .green{
+        @include colors(#7DBB3E);
+    }
+
 }
+
