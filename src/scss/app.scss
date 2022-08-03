@@ -76,7 +76,6 @@ header{
         }
     }
 }
-
  
 
 .nav__links{
@@ -133,13 +132,39 @@ main{
         "sal hue"
         ;
         height: 100vh;
+        color: white;
         background-color: red;
+
+      
+        #grid__cul{
+            grid-area: cult;
+            background-color: #F2BA34;
+        }
+        #grid__dis{
+            grid-area: dis;
+            background-color: #4B4773;
+        }
+        #grid__com{
+            grid-area: com;
+            background-color: #1BB0AF;
+        }
+        #grid__edu{
+            grid-area: edu;
+            background-color: #D03B81;
+        }
+        #grid__sal{
+            grid-area: sal;
+            background-color: #E44E55;
+        }
+        #grid__hue{
+            grid-area: hue;
+            background-color: #80BE41;
+        }
+        
+
+
     }
 }
-
-
-
-
 
 
 
