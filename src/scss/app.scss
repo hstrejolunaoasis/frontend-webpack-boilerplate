@@ -15,12 +15,8 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
-/* Vendor */
+header{
+    display: grid;
+    background-color: red;
 
-/* Components */
-
-/* Browser specific styles */
-@import 'dirty/hacks';
-
-/* Demo Page styles */
-@import 'demo';
+}
