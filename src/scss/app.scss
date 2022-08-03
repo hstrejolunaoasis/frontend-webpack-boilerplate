@@ -35,11 +35,18 @@ header{
         .nav__upper{
             display: flex;
             flex-direction: row;
-            align-items: flex-end;
-            color: white;
+            justify-content: flex-end;
+            color: rgb(255, 255, 255);
             font-family: Linearicons-Free;
             background-color: rgba(0,0,0,0.3);
             height: 30px;
+            padding-top: 5px;
+            p{
+                padding-right: 10px;
+            }
+            a{
+                padding-right: 5vw;
+            }
         }
 
         .nav__links{
