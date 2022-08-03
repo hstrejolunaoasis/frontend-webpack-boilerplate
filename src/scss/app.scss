@@ -135,6 +135,14 @@ main{
         color: white;
         background-color: red;
 
+        div{
+            padding-inline: 4em;
+            padding-block: 3.5em;
+            p{
+                font-size: 16px;
+            }
+        }
+
       
         #grid__cul{
             grid-area: cult;
@@ -160,13 +168,28 @@ main{
             grid-area: hue;
             background-color: #80BE41;
         }
-        
-
 
     }
 }
 
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 60vh;
+    background-color: red;
+    grid-area: contact;
+
+    .contact__form{
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+
+    }
+   
+}
 
 .wrapper {
     display: grid;
@@ -175,5 +198,6 @@ main{
     grid-template-areas:
       "header header header header"
       "main main main main"
+      "contact contact contact contact"
       "footer footer footer footer";
-  }
+}

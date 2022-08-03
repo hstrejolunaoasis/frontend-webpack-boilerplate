@@ -13,7 +13,10 @@
   }
 }
 
+@mixin grids {
+  padding-inline-start: 10px;
 
+}
 
 // Media queries
 @mixin bp($point) {
