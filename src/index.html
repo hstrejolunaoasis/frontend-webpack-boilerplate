@@ -12,29 +12,29 @@
     <link rel="stylesheet" href="../dist/css/app.css" />
   </head>
   <body class="wrapper">
-    <div></div>
-
     <header>
-      <div class="upper">
-        <p>INFORME SOCIAL 2020</p>
-        <p>IDIOMA</p>
-        <a> arrow down </a>
-      </div>
-      <nav>
-        <img alt="oasis logo" />
-        <ul>
-          <li><a>Inicio</a></li>
-          <li><a>Filosofia</a></li>
-          <li><a>Nuestros Origenes</a></li>
-          <li><a>Cambiando Vidas</a></li>
-          <li><a>Programas</a></li>
-          <li><a>Redes de colaboración</a></li>
-          <li><a>Se parte del cambio</a></li>
-          <li><a>Galería</a></li>
-          <li><a>Reconocimientos</a></li>
-          <li><a>Contacto</a></li>
-          <li><a>Prensa</a></li>
-        </ul>
+      <nav class="nav">
+        <div class="nav__upper">
+          <p>INFORME SOCIAL 2020</p>
+          <p>IDIOMA</p>
+          <a>  </a>
+        </div>
+        <div class="nav__links">
+          <img alt="oasis logo" />
+          <ul>
+            <li><a>Inicio</a></li>
+            <li><a>Filosofia</a></li>
+            <li><a>Nuestros Origenes</a></li>
+            <li><a>Cambiando Vidas</a></li>
+            <li><a>Programas</a></li>
+            <li><a>Redes de colaboración</a></li>
+            <li><a>Se parte del cambio</a></li>
+            <li><a>Galería</a></li>
+            <li><a>Reconocimientos</a></li>
+            <li><a>Contacto</a></li>
+            <li><a>Prensa</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -165,11 +165,25 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__colors"></div>
-      <h1>
-        NEWSLETTER
-      </h1>
-      <
+      <div class="footer__colors">colors</div>
+      <div class="footer__newsletter">
+        <h1>NEWSLETTER</h1>
+        <label for="fmail"> *Correo Electrónico: </label>
+        <input type="email" id="fmail" name="fmail" />
+
+        <div class="footer__newsletter_socialmedia">
+          <a> twitter </a>
+          <a> facebook </a>
+          <p>¡Siguenos en redes sociales!</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>
+          OASIS HOTELES ©2014 Todos los Derechos Reservados | Cambios y
+          Cancelaciones | Políticas del Hotel | Políticas de Privacidad
+        </p>
+      </div>
     </footer>
   </body>
 </html>
