@@ -15,6 +15,11 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
+p{
+    font-family: Muli;
+    font-size: 14px;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -29,6 +34,8 @@ header{
 
         .nav__upper{
             display: flex;
+            flex-direction: row;
+            align-items: flex-end;
             color: white;
             font-family: Linearicons-Free;
             background-color: rgba(0,0,0,0.3);
