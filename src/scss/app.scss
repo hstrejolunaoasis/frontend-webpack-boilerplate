@@ -180,6 +180,10 @@ main{
     justify-content: end;
     height: 60vh;
     grid-area: contact;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.15028018043154767) 0%, rgba(0,0,0,0) 17%); 
+
+    
 
     form {
         font-family: Muli;
@@ -223,6 +227,7 @@ main{
         align-items: center;
         justify-content: center;
         width: 65%;
+        margin-block-end: 100px;
 
         h2{
             color: #D3106C;
