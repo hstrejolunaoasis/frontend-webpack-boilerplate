@@ -209,7 +209,9 @@ main {
       height: 20px;
       border: 0.51px solid rgba(68, 68, 68, 0.2);
       border-radius: 4px;
+      padding-inline-start: 7px;
       padding-block: 15px;
+      margin-block-end: 25px;
     }
     .full-width {
       grid-column-start: 1;
@@ -219,11 +221,15 @@ main {
         width: 100%;
         border: 0.51px solid rgba(68, 68, 68, 0.2);
         border-radius: 4px;
+        padding-inline-start: 7px;
       }
       textarea {
         width: 100%;
         border: 0.51px solid rgba(68, 68, 68, 0.2);
         border-radius: 4px;
+        padding-block-start: 15px;
+        padding-block-end: 30px;
+        padding-inline: 15px;
       }
     }
 
@@ -296,7 +302,7 @@ main {
     border: 0.51px solid rgba(68, 68, 68, 0.2);
     border-radius: 4px;
     padding-block: 10px;
-    padding-inline-start: 5px;
+    padding-inline-start: 15px;
     width: 22em;
   }
   
@@ -374,6 +380,6 @@ main {
   align-items: center;
   justify-content: center;
   padding-block: 30px;
-  color: #434343;
+  color: #434343bc;
   font-family: Avenir-Light;
 }
