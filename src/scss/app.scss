@@ -279,7 +279,22 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  pa
+  padding-block-start: 35px;
+.footer__newsletter_form{
+  height: 30px;
+  width: 200px;
+  padding-block: 10px;
+  label{
+    font-family: Muli;
+  }
+  input{
+    border-radius: 5px;
+    padding-block: 10px;
+  }
+}
+
+
+ 
   h1 {
     font-family: Muli-Extra-Bold;
     font-size: 50px;
