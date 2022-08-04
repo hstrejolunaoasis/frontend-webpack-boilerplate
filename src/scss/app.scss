@@ -346,6 +346,7 @@ main {
     align-items: center;
     margin-block-end: 20px;
     color: #444444;
+    font-family: Avenir-Book;
     div{
       display: flex;
       a{
@@ -354,6 +355,12 @@ main {
           cursor: pointer;
         }
       }
+    }
+
+    span{
+      background-color: red;
+      width: 550%;
+      height: 1px;
     }
   }
 }
