@@ -275,23 +275,29 @@ main {
 }
 
 .footer__newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pa
   h1 {
     font-family: Muli-Extra-Bold;
-    /* Fallback: Set a background color. */
+    font-size: 50px;
+    height: 100px;
     background-color: red;
-
-    /* Create the gradient. */
-    background-image: linear-gradient(45deg, #e69f78, #f2b244);
-
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    background-image:
+      linear-gradient(
+        to right, 
+        #FA823C,
+        #f2b244 0%,
+        #FA823C 0%,
+        #FA823C 28.5%,
+        #f2b244 15.6%
+      );
+    
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
   }
 }
