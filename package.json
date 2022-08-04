@@ -52,7 +52,7 @@
     "template",
     "setup"
   ],
-  "license": "MIT",
+  "license": "GPLv2",
   "private": false,
   "repository": {
     "type": "git",
