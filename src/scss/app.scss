@@ -345,8 +345,6 @@ main {
     flex-direction: column;
     align-items: center;
     margin-block-end: 20px;
-    color: #444444;
-    font-family: Avenir-Book;
     div{
       display: flex;
       a{
@@ -357,9 +355,15 @@ main {
       }
     }
 
+    p{
+      font-family: Avenir-Book;
+      color: rgba(68, 68, 68, 0.733);
+      margin-block-end: 2em;
+    }
+
     span{
-      background-color: red;
-      width: 550%;
+      background-color: rgba(68,68,68,0.08);
+      width: 850%;
       height: 1px;
     }
   }
@@ -369,4 +373,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-block: 30px;
+  color: #434343;
+  font-family: Avenir-Light;
 }
